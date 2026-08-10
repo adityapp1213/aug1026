@@ -43,7 +43,7 @@ header h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 250px;
     border: 1px solid #f5f2eb;
     border-radius: 5px;
     background-color: #f9f9f9;
