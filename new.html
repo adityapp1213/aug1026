@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom manipulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>  
+        <h1>This is the dom demo page</h1>
+        <p>Welcome to the dom manipulation page!</p>
+        <p>Visitor Count: <span id="visitorCount">0</span></p>
+    </header>
+
+    <section>
+        <h2>Dynamic Content Display</h2>
+        <button class="action-button" onclick="displayType('Text')">Show Text</button>
+        <button class="action-button" onclick="displayType('Image')">Show Image</button>
+        <button class="action-button" onclick="displayType('Animation')">Show Animation</button>
+
+        <div id="displayArea" class="display-area"></div>
+    </section>
+
+    <section>
+        <h2>Image Toggle</h2>
+        <img id="toggleImage" src="https://i.pinimg.com/736x/54/e7/e4/54e7e4259c08e14f79bca309d84468b5.jpg" alt="cat">
+        <img id="toggleImage2" src="https://i.pinimg.com/1200x/f0/9a/ad/f09aad4737a1260b4de74c153674ff45.jpg" alt="dog" >
+        <img id="toggleImage3" src="https://i.pinimg.com/736x/0b/04/08/0b040818210bce97a7d315fa0f6d5a05.jpg" alt="rabbit">
+
+        <button class="action-button" id="toggleImageButton">Toggle Image</button>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
